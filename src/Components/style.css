@@ -37,7 +37,7 @@ html{
 .row2{
     position: absolute;
     top:10px;
-    right: 150px;
+    right: 70px;
     text-align: center;
 }
 .row2 h2{
@@ -185,4 +185,58 @@ html{
     margin-top: 2rem;
     text-align: justify;
     font-size: 13px;
+}
+
+@media screen and (max-width: 992px) {
+.row1 h1{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.row2 img{
+display: none;
+}
+.search input{
+    width: 350px;
+    height: 35px;
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.row1 h1{
+    font-size: 1.7rem;
+    margin-left: 16px;
+}
+.row2 img{
+display: none;
+}
+.search input{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+}
+
+}
+  
+@media screen and (max-width: 442px) {
+.search input{
+    width: 170px;
+    height: 35px;
+    font-size: 15px;
+}
+.row2 h2{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 10 0px;
+    margin-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 350px) {
+.row2 h2{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 10 0px;
+    margin-bottom: 15px;
+}
 }
